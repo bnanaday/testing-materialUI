@@ -11,6 +11,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { ContactListComponent } from '../contact-list/contact-list.component';
 
 @NgModule({
   imports: [
@@ -24,7 +25,7 @@ import { HelloComponent } from './hello.component';
     MatDividerModule,
     FlexLayoutModule,
   ],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [AppComponent, HelloComponent, ContactListComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
