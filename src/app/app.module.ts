@@ -7,6 +7,7 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -21,6 +22,7 @@ import { HelloComponent } from './hello.component';
     MatFormFieldModule,
     MatCardModule,
     MatDividerModule,
+    FlexLayoutModule,
   ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],

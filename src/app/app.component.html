@@ -1,21 +1,20 @@
-<mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-  <mat-button-toggle value="listContact">List Contact</mat-button-toggle>
-  <mat-button-toggle value="addContact">Add Contact</mat-button-toggle>
-</mat-button-toggle-group>
+<mat-card>
+  <h3>Contact Info</h3>
+  <div fxLayout="column" fxLayoutAlign="space-between stretch" >
+  <mat-form-field appearance="fill">
+  <mat-label>First Name</mat-label>
+  <input matInput>
+</mat-form-field>
+<mat-form-field appearance="fill">
+<mat-label>Last Name</mat-label>
+<input matInput>
+</mat-form-field>
+<mat-form-field appearance="fill">
+<mat-label>Age</mat-label>
+<input matInput>
+</mat-form-field>
+  </div>
 
-<form class="example-form">
-  <mat-form-field appearance="fill">
-    <mat-label>First Name</mat-label>
-    <input matInput />
-  </mat-form-field>
-  <mat-divider></mat-divider>
-  <mat-form-field appearance="fill">
-    <mat-label>Last Name</mat-label>
-    <input matInput />
-  </mat-form-field>
-  <mat-divider></mat-divider>
-  <mat-form-field appearance="fill">
-    <mat-label>Phone Number</mat-label>
-    <input matInput />
-  </mat-form-field>
-</form>
+
+
+</mat-card>
