@@ -1,29 +1,28 @@
 <h1>Contact Manager</h1>
 
-<app-contact-list></app-contact-list>
-
 <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
-<mat-button-toggle value="bold">List Contact</mat-button-toggle>
-<mat-button-toggle value="italic">Add Contact</mat-button-toggle>
+  <mat-button-toggle value="bold">List Contact</mat-button-toggle>
+  <mat-button-toggle value="italic">Add Contact</mat-button-toggle>
 </mat-button-toggle-group>
+
+<app-contact-list></app-contact-list>
 
 <mat-card>
   <h3>Contact Info</h3>
-  <div fxLayout="column" fxLayoutAlign="space-between stretch" >
-  <mat-form-field appearance="fill">
-  <mat-label>First Name</mat-label>
-  <input matInput>
-</mat-form-field>
-<mat-form-field appearance="fill">
-<mat-label>Last Name</mat-label>
-<input matInput>
-</mat-form-field>
-<mat-form-field appearance="fill">
-<mat-label>Phone Number</mat-label>
-<input matInput>
-</mat-form-field>
+  <div fxLayout="column" fxLayoutAlign="space-between stretch">
+    <mat-form-field appearance="fill">
+      <mat-label>First Name</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Phone</mat-label>
+      <input matInput />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Last Name</mat-label>
+      <input matInput />
+    </mat-form-field>
   </div>
-
-
-
 </mat-card>
